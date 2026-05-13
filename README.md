@@ -1,15 +1,15 @@
-**P4V Commit Convention Kuralları**
+# **P4V Commit Convention Kuralları**
 
 Proje büyüdükçe "abi bu kodu kim bozdu", "şu dosyayı kim ne zaman değiştirdi" dramalarını yaşamamak ve Perforce geçmişimizi temiz tutmak için bugünden itibaren yepyeni bir commit kural seti (Convention) uyguluyoruz. 🛑
 
 Bundan sonra Perforce üzerinden atacağınız tüm commitler bu kurallara uygun olacak. Kurala uymayan, ne idüğü belirsiz commitler gerekirse revert edilecektir. Bu disiplinin oturmaması durumunda ise Pull Request sistemine geçilecek ve atılan her commit
 manuel olarak tarafımdan ayıklanarak excel'e geçirilip uygunluk durumuna göre onay verilecektir. 
 
-**Nasıl Commit Atıyoruz?**
+# **Nasıl Commit Atıyoruz?**
 Commit formatımız tek satırlık ve aşırı basit. Yapı kesinlikle şöyle olacak:
 [Kategori] Kısa ve net İngilizce açıklama
 
- **Zorunlu Kategori Etiketleri (Tagler)**
+#  **Zorunlu Kategori Etiketleri (Tagler)**
 İşin türüne göre mesajın başına mutlaka şu taglerden birini koyuyorsunuz:
 
  [Art] - 3D model, animasyon ve texture eklentileri/güncellemeleri.
@@ -30,7 +30,7 @@ Commit formatımız tek satırlık ve aşırı basit. Yapı kesinlikle şöyle o
 
  [Bugfix] - Departman fark etmeksizin acil bir patlağı/hatayı çözdüğünüz durumlar.
 
-🚨** Kesinlikle Dikkat Edilecek Altın Kurallar**
+# 🚨** Kesinlikle Dikkat Edilecek Altın Kurallar**
 1️⃣ Sadece İngilizce: Motor standartlarına uyuyoruz. Türkçe commit kesinlikle yasak.
 
 2️⃣ Emir Kipi Kullanın: Geçmiş zamanla işimiz yok. Added, Fixed, Updated YERİNE --> Add, Fix, Update kullanıyoruz. Yaptığınız işi emir veriyormuş gibi yazın.
@@ -39,7 +39,7 @@ Commit formatımız tek satırlık ve aşırı basit. Yapı kesinlikle şöyle o
 
 4️⃣ Çöp Commit Atmayın: "test", "wip", "ufak düzeltmeler", "asdf" gibi ne olduğu belli olmayan commitler görmek istemiyoruz. Ne yaptıysan onu net bir şekilde yazacaksın. 
 
- **Doğru ve Yanlış Örnekler (Buraya Dikkat)**
+# **Doğru ve Yanlış Örnekler (Buraya Dikkat)**
 ❌ Hatalı: [Art] added_church_textures_and_meshes (Geçmiş zaman ve alt çizgi var - PATLADI 💥)
 ✅ Doğru: [Art] Add church exterior meshes and textures
 
