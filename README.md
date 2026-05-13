@@ -7,28 +7,28 @@ manuel olarak tarafımdan ayıklanarak excel'e geçirilip uygunluk durumuna gör
 
 # **Nasıl Commit Atıyoruz?**
 Commit formatımız tek satırlık ve aşırı basit. Yapı kesinlikle şöyle olacak:
-[Kategori] Kısa ve net İngilizce açıklama
+`[Kategori]` Kısa ve net İngilizce açıklama
 
 #  **Zorunlu Kategori Etiketleri (Tagler)**
 İşin türüne göre mesajın başına mutlaka şu taglerden birini koyuyorsunuz:
 
- [Art] - 3D model, animasyon ve texture eklentileri/güncellemeleri.
+ `[Art]` - 3D model, animasyon ve texture eklentileri/güncellemeleri.
 
- [TechArt] - Shader, materyal, VFX, rig ve optimizasyon işleri.
+ `[TechArt]` - Shader, materyal, VFX, rig ve optimizasyon işleri.
 
- [Code] - C++, ana Blueprint sistemleri ve core mekanikler.
+ `[Code]` - C++, ana Blueprint sistemleri ve core mekanikler.
 
- [LD] - (Level Design) Harita, çevre düzeni ve ışıklandırma mevzuları. Level Art da bu Tag ile atabilir. 
+ `[LD]` - (Level Design) Harita, çevre düzeni ve ışıklandırma mevzuları. Level Art da bu Tag ile atabilir. 
 
- [UI] - Arayüz, menüler ve HUD değişiklikleri.
+ `[UI]` - Arayüz, menüler ve HUD değişiklikleri.
 
- [Audio] - SFX, müzik ve ses ayarları.
+ `[Audio]` - SFX, müzik ve ses ayarları.
 
- [GD] Game Design ile alakalı değişiklikler; ekonomik düzeltmeler, parametre ayarları, balancing, CCC değişiklikleri.
+ `[GD]` Game Design ile alakalı değişiklikler; ekonomik düzeltmeler, parametre ayarları, balancing, CCC değişiklikleri.
 
- [DOC] Dökümantasyonla alakalı bir commit atılırsa bu tag kullanılacaktır.
+ `[DOC]` Dökümantasyonla alakalı bir commit atılırsa bu tag kullanılacaktır.
 
- [Bugfix] - Departman fark etmeksizin acil bir patlağı/hatayı çözdüğünüz durumlar.
+ `[Bugfix]` - Departman fark etmeksizin acil bir patlağı/hatayı çözdüğünüz durumlar.
 
 # 🚨** Kesinlikle Dikkat Edilecek Altın Kurallar**
 1️⃣ Sadece İngilizce: Motor standartlarına uyuyoruz. Türkçe commit kesinlikle yasak.
